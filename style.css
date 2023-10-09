@@ -234,6 +234,7 @@ button:active{
 
     p{
         max-width: 200px;
+        font-size: 12px ;
     }
     
     .attribution{
