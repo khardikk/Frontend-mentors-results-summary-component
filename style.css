@@ -186,6 +186,9 @@ button:active{
       padding: 0px;
     }
   
+    .grey-text{
+        font-size: 15px;
+    }
     .container {
       /* Adjust container styles for mobile */
       display: flex;
