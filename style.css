@@ -19,7 +19,7 @@ body{
 
 .container{
     display: flex;
-    border-style: dashed;
+    border-style: none;
     max-width: fit-content;
     border-radius: 20px;
     box-shadow: 3px 3px 30px rgba(173, 216, 230, 0.91);
@@ -35,7 +35,7 @@ body{
     padding: 30px;
     background-color: hsl(228, 45%, 44%);
     color: white;
-    border-radius: 20px;
+    border-radius: 25px;
     max-width: 300px;
 }
 
@@ -48,7 +48,7 @@ body{
     background-color: hsl(0, 0%, 100%);
     font-weight: 700;
     color: rgb(5, 3, 62);
-    border-radius: 20px;
+    border-radius: 25px;
     max-width: 300px;
 }
 
@@ -159,9 +159,10 @@ p{
 button{
     color: white;
     font-weight: bold;
+    width: 15rem;
     background-color: rgba(21, 6, 75, 0.882);
     border-radius: 20px;
-    padding: 10px;
+    padding: 12px;
 }
 
 @media (max-width: 768px) {
@@ -178,29 +179,40 @@ button{
       /* Adjust container styles for mobile */
       display: block; /* Change flex to block for stacking elements */
       margin: 0 auto; /* Center the container */
+      margin-bottom: 15px;
+      border-style: none;
     }
   
     /* Add more mobile-specific styles as needed */
     
     .Blue-left {
       /* Adjust styles for the Blue and White boxes */
-      width: 100%;
+      width: auto;
       height: 40vh; /* Make them full-width on mobile */
       max-width: none; /* Remove max-width restriction */
       text-align: center; /* Center-align text */
       padding: 20px; /* Adjust padding for better spacing on mobile */
+      border-radius: 0 0 25px 25px;
+
     }
     .White-right{
         width: 100vw;
-        height: 60vh;
+        height: 45vh;
+        padding: 25px 50px 50px 40px;
 
     }
   
     .grid-items {
       /* Adjust styles for grid items on mobile */
       width: 100%; /* Make them full-width on mobile */
+      height: auto;
+      margin-bottom: 15px;
       max-width: none; /* Remove max-width restriction */
     }
-  
+
+    button{
+        width: 20rem;
+        padding: 15px;
+    }
     /* Add more mobile-specific styles for grid items and other elements */
   }
