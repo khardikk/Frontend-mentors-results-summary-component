@@ -177,22 +177,24 @@ button{
   
     .container {
       /* Adjust container styles for mobile */
-      display: block; /* Change flex to block for stacking elements */
-      margin: 0 auto; /* Center the container */
+      display: flex;
+      flex-direction: column; /* Change flex to block for stacking elements */
       margin-bottom: 15px;
       border-style: none;
+      justify-content: center;
+      align-items: center;
     }
   
     /* Add more mobile-specific styles as needed */
     
     .Blue-left {
       /* Adjust styles for the Blue and White boxes */
-      width: auto;
+      width: 100vw;
       height: 40vh; /* Make them full-width on mobile */
       max-width: none; /* Remove max-width restriction */
       text-align: center; /* Center-align text */
       padding: 20px; /* Adjust padding for better spacing on mobile */
-      border-radius: 0 0 25px 25px;
+      border-radius: 0 0 60px 60px;
 
     }
     .White-right{
