@@ -33,7 +33,7 @@ body{
     width: 220px;
     align-items: center;
     padding: 30px;
-    background-color: hsl(228, 45%, 44%);
+    background-image: linear-gradient(#6f41fd,#4f39f4, #342eea);
     color: white;
     border-radius: 25px;
     max-width: 300px;
@@ -57,7 +57,7 @@ body{
     grid-column: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    color: lightgray;
+    color:  #c0affd;
 }
 
 .grid-items{
@@ -77,26 +77,26 @@ body{
 
 /* Red style */
 .grid-items.red {
-    background-color: rgba(255, 128, 128, 0.2); /* Light red background */
-    color: rgba(255, 0, 0, 0.9); /* Bright red text */
+    background-color: #fff6f5; /* Light red background */
+    color: #d86c76; /* Bright red text */
 }
 
 /* Yellow style */
 .grid-items.yellow {
-    background-color: rgba(255, 255, 128, 0.2); /* Light yellow background */
-    color: rgba(255, 187, 0, 0.9); /* Bright yellow text */
+    background-color: #fffbf2; /* Light yellow background */
+    color: #ffd271; /* Bright yellow text */
 }
 
 /* Green style */
 .grid-items.green {
-    background-color: rgba(128, 255, 128, 0.2); /* Light green background */
-    color: rgb(0, 255, 110); /* Bright green text */
+    background-color: #f2fbfa; /* Light green background */
+    color: #33a88b; /* Bright green text */
 }
 
 /* Blue style */
 .grid-items.blue {
-    background-color: rgba(128, 128, 255, 0.2); /* Light blue background */
-    color: rgba(0, 0, 255, 0.9); /* Bright blue text */
+    background-color: #f3f3fd; /* Light blue background */
+    color: #2d37aa; /* Bright blue text */
 }
 
 h5{
@@ -104,15 +104,16 @@ h5{
 }
 
 .right-text{
-    color:rgb(146, 139, 139);
+    color: #97949d;
     font-size: 13px;
     font-weight: 600;
+    font-weight: bold;
 }
 
 span{
-    color: black;
-    font-size: 13px;
-    font-weight: bold;
+    color: #4f5364;
+    font-size: 14px;
+    font-weight: bolder;
 }
 
 
@@ -131,7 +132,7 @@ span#after{
     justify-content: center;
     align-items: center;
     margin-top: 25px;
-    background-color: rgb(102, 104, 228);
+    background-image: linear-gradient(to bottom, #4b24cd,#452ee1,#4633ef);
     width: 90px;
     height: 90px;
     padding: 25px;
@@ -150,9 +151,9 @@ h1{
 }
 p{
     margin: 0px;
-    font-size: 11px;
+    font-size: 12px;
     text-align: center;
-    max-width: 150px;
+    max-width: 160px;
     color: rgb(218, 216, 216);
 }
 
@@ -160,7 +161,7 @@ button{
     color: white;
     font-weight: bold;
     width: 15rem;
-    background-color: rgba(21, 6, 75, 0.882);
+    background-color: #303b59;
     border-radius: 20px;
     padding: 12px;
 }
